@@ -1,50 +1,85 @@
-# React + TypeScript + Vite
+```markdown
+# Market Risk Evaluation Chart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **Market Risk Evaluation Chart** built using **React** and **Chart.js**. The chart visualizes market risk data with interactive bars that represent different risk levels.
 
-Currently, two official plugins are available:
+## Table of Contents
+- [Demo](#demo)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Components](#components)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demo
 
-## Expanding the ESLint configuration
+![Demo of Market Risk Evaluation Chart](path/to/your/demo-image.png) <!-- Replace with the actual path to your demo image -->
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Features
+- Responsive design that adjusts to different screen sizes.
+- Interactive bar chart with labels displaying data values.
+- Clear visualization of risk levels categorized as Low, Medium, and High.
 
-- Configure the top-level `parserOptions` property like this:
+## Technologies Used
+- **React**: For building the user interface.
+- **Chart.js**: For rendering the bar chart.
+- **Tailwind CSS**: For styling the components.
+- **TypeScript ES6**: For scripting.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## Components
+
+This project uses the following components:
+
+### 1. **Charts Component**
+   - Displays the bar chart using the Chart.js library.
+   - Renders dynamic data labels on top of the bars.
+   - Implements a responsive layout that adapts to screen sizes.
+
+### 2. **RiskLevel Component**
+   - Represents individual risk levels with colored boxes and labels.
+   - Used in the vertical legend to categorize risk levels.
+
+## Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Peliah/market-risk-evaluation-chart.git
+   ```
+
+2. **Navigate to the project directory:**
+   ```bash
+   cd market-risk-evaluation-chart
+   ```
+
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+## Usage
+
+To run the project, use the following command:
+
+```bash
+npm start
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+This will start the development server and open the application in your default web browser.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## License
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
+
+### Instructions to Customize:
+1. **Replace Image Path**: Update the image path in the `Demo` section with the actual path to a screenshot or demo image of your project.
+2. **Update Repository URL**: Change `https://github.com/Peliah/market-risk-evaluation-chart.git` to your actual GitHub repository URL.
+3. **Add Additional Details**: You may want to include further details such as how to customize the chart, any specific environment variables, or configurations required.
+
+### Additional Tips:
+- Keep your README concise and clear.
+- Use markdown features such as headers, lists, and code blocks to enhance readability.
+- Make sure the installation and usage instructions are straightforward for new users.
+
+Feel free to ask if you need more modifications or specific content!
