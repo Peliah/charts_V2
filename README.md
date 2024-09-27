@@ -36,7 +36,7 @@ Represents individual risk levels with colored boxes and labels. Used in the ver
 Clone the repository:
 ```bash
 git clone https://github.com/Peliah/charts_V2.git
-
+```
 Navigate to the project directory:
 ```bash
 cd charts_V2
