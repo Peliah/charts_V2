@@ -43,13 +43,13 @@ const Charts = () => {
                             color: '#000',
                             fontWeight: 'bold',
                             fontSize: '12px',
-                            transform: 'translateX(-60%)' // Center the label
+                            transform: 'translateX(-60%)'
                         }}
                     >
-                        {dataPoint.toFixed(1)} {/* Display the label value */}
+                        {dataPoint.toFixed(1)}
                     </div>
                 ))}
-                <div className="w-4/5" style={{ height: '400px' }}> {/* Set a minimum height for the chart area */}
+                <div className="w-4/5" style={{ height: '400px' }}>
                     <Bar
                         data={chartData}
                         options={{

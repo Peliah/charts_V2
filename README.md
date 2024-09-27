@@ -9,10 +9,9 @@ This project is a **Market Risk Evaluation Chart** built using **React** and **C
 - [Components](#components)
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
 
 ## Demo
-![Demo of Market Risk Evaluation Chart](path/to/your/demo-image.png) <!-- Replace with the actual path to your demo image -->
+![Demo of Market Risk Evaluation Chart](./src/assets/chart.png) 
 
 ## Features
 - Responsive design that adjusts to different screen sizes.
@@ -23,7 +22,7 @@ This project is a **Market Risk Evaluation Chart** built using **React** and **C
 - **React**: For building the user interface.
 - **Chart.js**: For rendering the bar chart.
 - **Tailwind CSS**: For styling the components.
-- **JavaScript ES6**: For scripting.
+- **Typescript ES6**: For scripting.
 
 ## Components
 
@@ -36,11 +35,11 @@ Represents individual risk levels with colored boxes and labels. Used in the ver
 ## Installation
 Clone the repository:
 ```bash
-git clone https://github.com/your-username/market-risk-evaluation-chart.git
+git clone https://github.com/Peliah/charts_V2.git
 
 Navigate to the project directory:
 ```bash
-cd market-risk-evaluation-chart
+cd charts_V2
 ```
 
 Install dependencies:
@@ -51,20 +50,6 @@ npm install
 ## Usage
 To run the project, use the following command:
 ```bash
-npm start
+npm run dev
 ```
 This will start the development server and open the application in your default web browser.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-### Instructions to Customize:
-1. **Image Path**: Update the path in the `![Demo of Market Risk Evaluation Chart](path/to/your/demo-image.png)` line to the actual path of your demo image.
-2. **GitHub Repository URL**: Change `https://github.com/your-username/market-risk-evaluation-chart.git` to your actual GitHub repository URL.
-3. **Additional Details**: Modify any section to better reflect your project's specifics or add any additional information that might be relevant.
-
-### Saving:
-- Save the content to a file named `README.md` in your project directory.
-
-If you need any further modifications or have other questions, feel free to ask!
