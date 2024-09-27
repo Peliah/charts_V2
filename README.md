@@ -1,3 +1,5 @@
+
+
 ```markdown
 # Market Risk Evaluation Chart
 
@@ -25,7 +27,7 @@ This project is a **Market Risk Evaluation Chart** built using **React** and **C
 - **React**: For building the user interface.
 - **Chart.js**: For rendering the bar chart.
 - **Tailwind CSS**: For styling the components.
-- **TypeScript ES6**: For scripting.
+- **JavaScript ES6**: For scripting.
 
 ## Components
 
@@ -44,7 +46,7 @@ This project uses the following components:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Peliah/market-risk-evaluation-chart.git
+   git clone https://github.com/your-username/market-risk-evaluation-chart.git
    ```
 
 2. **Navigate to the project directory:**
@@ -71,15 +73,3 @@ This will start the development server and open the application in your default 
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
-
-### Instructions to Customize:
-1. **Replace Image Path**: Update the image path in the `Demo` section with the actual path to a screenshot or demo image of your project.
-2. **Update Repository URL**: Change `https://github.com/Peliah/market-risk-evaluation-chart.git` to your actual GitHub repository URL.
-3. **Add Additional Details**: You may want to include further details such as how to customize the chart, any specific environment variables, or configurations required.
-
-### Additional Tips:
-- Keep your README concise and clear.
-- Use markdown features such as headers, lists, and code blocks to enhance readability.
-- Make sure the installation and usage instructions are straightforward for new users.
-
-Feel free to ask if you need more modifications or specific content!
