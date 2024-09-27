@@ -1,4 +1,4 @@
-import { ChartArea } from "chart.js";
+import { ScriptableContext, ChartArea } from "chart.js";
 
 // Market risk data
 export const data = {
@@ -39,7 +39,7 @@ export const chartData = {
         {
             label: "Market Risk Levels",
             data: data.categories.map(c => c.value), // Risk data (Y-axis values)
-            backgroundColor: context => {
+            backgroundColor: (context: ScriptableContext<'bar'>) => {
                 const { ctx, chartArea } = context.chart;
 
                 if (!chartArea || !ctx) {
@@ -60,7 +60,7 @@ export const chartData = {
         {
             label: "Remaining Value", // Dataset for the remaining portion (value to MAX_VALUE)
             data: data.categories.map(c => MAX_VALUE - c.value), // Remaining height to reach the top
-            backgroundColor: context => {
+            backgroundColor: (context: ScriptableContext<'bar'>) => {
                 const { ctx, chartArea } = context.chart;
 
                 if (!chartArea || !ctx) {

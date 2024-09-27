@@ -20,6 +20,11 @@ import { cn } from "@/lib/utils";
 // Register Chart.js components
 ChartJS.register(BarElement, CategoryScale, LinearScale, Title, Tooltip, Legend);
 
+interface RiskLevelProps {
+    color: string;
+    label: string;
+}
+
 const Charts = () => {
     return (
         <Card className={cn("w-full max-w-4xl mx-auto p-0")}>
@@ -91,8 +96,10 @@ const Charts = () => {
     );
 }
 
+
+
 // Component for individual risk level items
-const RiskLevel = ({ color, label }) => (
+const RiskLevel: React.FC<RiskLevelProps> = ({ color, label }) => (
     <div className="flex items-center mb-2">
         <span className="color-box" style={{ backgroundColor: color }}></span>
         <span>{label}</span>
